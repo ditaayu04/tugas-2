@@ -1,0 +1,254 @@
+body {
+    font-family: 'Segoe UI';
+}
+.menupilih{
+    background-color : coral;
+    width : 100%;
+    height : 5px;
+}
+/* Home*/
+.nama{
+    font-size: 120;
+    font-family: News706 BT;
+    vertical-align:top;
+    letter-spacing: 23px;
+    word-spacing: 25px;
+    color: rgb(146, 171, 199); 
+}
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.herotxt span {
+    color: coral;
+}
+.herotxt h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.line {
+    background: grey;
+    width: 750px;
+    height: 8px;
+}
+.garis{
+    background: rgb(197, 146, 199);
+    width: 1450px;
+    height: 8px;
+}
+
+.deskripsi{
+    font-size: 18;
+    font-family: Cambria;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 30px;
+}
+
+.subtitle{
+    font-size: 85;
+    font-family: Franklin Gothic Heavy;
+    line-height: 100px;
+    word-spacing: 2px;
+    padding-left: 45px;
+    padding-left: 30px;
+    color: rgb(146, 171, 199);
+}
+
+.header{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    word-spacing: 3px;
+    color: black;
+    letter-spacing: 1px;
+    top:1px solid #000000; padding:5px; line-height: 40px;
+    text-align:middle; background-color: rgb(197, 146, 199);
+    padding : 20px;
+    padding-right: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* Pendidikan*/
+
+.pendidikan {
+    text-align: center;
+    background-color: #fafafa;
+    height: 600px;
+    padding-top: 50px;
+}
+.cardSchool {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pendidikan h2 {
+    margin-top: 80px;
+}
+
+.card {
+    color: black;
+    background-color: coral;
+    margin-left: 40px;
+    min-height: 300px;
+    min-width: 300px;
+    max-width: 250px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 18px #000000;
+    padding-top: 20px;
+    font-size: large;
+    margin: 60px;
+}
+
+.card h3 {
+    font-family: 'Segoe UI'
+    font-size= 32px;
+    line-height: 40px;
+    padding-top: 50px;
+    color: white;
+}
+
+.card h4 {
+    font-family: monospace;
+    font-size: 24px;
+    padding: 10px;
+}
+
+.card img {
+    
+    width: 160px;
+    height: 160px;
+    box-shadow: 5px 10px 18px grey;
+    margin-top: 40px;
+}
+
+/*aktivitas*/
+
+.activitas {
+    background-color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.kartu {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardact {
+   
+    background-color: grey;
+    margin-top: 40px;
+    margin-left: 40px;
+    max-width: 300px;
+    min-height: 350px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 18px #000000;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    margin: 60px;
+}
+
+.cardact h2 {
+    font-size: 24px;
+    color: black;
+}
+
+.cardact span {
+    font-weight: bold;
+    color: coral;
+}
+
+.card p {
+    font-size: 18px;
+    padding-bottom: 20px;
+    
+}
+
+.imglogo {
+    height: 140px;
+    width: 140px;
+}
+
+.cardact p {
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+.cardact img {
+    font-size: 20px;
+    padding: 10px;
+    box-shadow: 5px 10px 18px black;
+}
+
+.cardact h2 {
+    font-size: 32px;
+    padding: 10px;
+}
+
+.title {
+    font-size: x-large;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Jadwal Kuliah */
+
+.kuliah {
+    background-color: coral;
+    color: #fafafa;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.kuliah table {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666;
+    background: chocolate;
+    border: 1px solid;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 10px 18px black;
+}
+
+table tr {
+    text-align: center;
+    padding-left: 15px;
+}
+
+table td {
+    font-size: 20px;
+    padding: 15px 24px;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid grey;
+    border-left: 1px solid grey;
+    background: whitesmoke;
+}
+
+table th {
+    font-size: 32px;
+    padding: 15px 35px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid coral;
+    border-left: 1px solid coral;
+    background: grey;
+    color: #fafafa;
+}
